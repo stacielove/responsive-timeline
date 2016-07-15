@@ -132,7 +132,7 @@ h3 {
   border-radius: 3px 3px 0 0;
 }
 
-#t-wrapper .t-item .t-content h3 strong {
+#t-wrapper .t-item .t-content h3 span.date {
   font-size: 10px;
   font-weight: 300;
 }
@@ -161,3 +161,26 @@ h3 {
   border-right: 8px solid #6A6A6A;
 }
 
+@media only screen and (max-width: 768px) {
+  #t-wrapper {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+  }
+  #t-wrapper:before {
+    left: 0;
+  }
+  #t-wrapper .t-item .t-content {
+    width: 90%;
+    float: right;
+  }
+  #t-wrapper .t-item .t-content:before, #t-wrapper .t-item .t-content.right:before {
+    left: 10%;
+    margin-left: -6px;
+    border-left: 0;
+    border-right: 7px solid #6A6A6A;
+  }
+  #t-wrapper .t-item .t-icon {
+    left: 0;
+  }
+}
