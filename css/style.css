@@ -1,4 +1,4 @@
-Import same font pairings as portfolio*/
+/*Import same font pairings as portfolio*/
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Lato:400,700,900|Libre+Baskerville:400,700,400italic|);
 
 *, *:before, *:after {
@@ -94,14 +94,16 @@ h3 {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-/*#t-wrapper .t-item .t-icon svg {
+
+/*handles svg*/
+#t-wrapper .t-item .t-icon svg {
   position: relative;
-  top: 14px;
-  left: 14px;
-}*/
+  top:10px;
+  left:10px;
+}
 
 #t-wrapper .t-item .t-content {
-  width: 43%;
+  width: 45%;
   background: #fff;
   padding: 20px 0px 20px 20px;
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -158,5 +160,4 @@ h3 {
   border-left: 0;
   border-right: 8px solid #6A6A6A;
 }
-
 
